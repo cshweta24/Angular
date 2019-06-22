@@ -11,3 +11,4 @@ var Car = /** @class */ (function () {
 exports.Car = Car;
 var cr = new Car();
 cr.speedUp();
+
