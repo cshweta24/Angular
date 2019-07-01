@@ -11,6 +11,8 @@ import { InfoComponent } from './pricing/info/info.component';
 import { PricingCardComponent } from './pricing/pricing-card/pricing-card.component';
 import { FooterComponent } from './pricing/footer/footer.component';
 import { FooterItemComponent } from './pricing/footer/footer-item/footer-item.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { BindingComponent } from './binding/binding.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FooterItemComponent } from './pricing/footer/footer-item/footer-item.co
     InfoComponent,
     PricingCardComponent,
     FooterComponent,
-    FooterItemComponent
+    FooterItemComponent,
+    DataBindingComponent,
+    BindingComponent
   ],
   imports: [
     BrowserModule
