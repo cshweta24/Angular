@@ -12,7 +12,8 @@ import { PricingCardComponent } from './pricing/pricing-card/pricing-card.compon
 import { FooterComponent } from './pricing/footer/footer.component';
 import { FooterItemComponent } from './pricing/footer/footer-item/footer-item.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
-import { BindingComponent } from './binding/binding.component';
+// import { BindingComponent } from './binding/binding.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BindingComponent } from './binding/binding.component';
     FooterComponent,
     FooterItemComponent,
     DataBindingComponent,
-    BindingComponent
+    // BindingComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule
